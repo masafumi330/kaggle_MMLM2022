@@ -1,0 +1,26 @@
+version: '3'
+services: 
+    mmlm2022:
+        container_name: "mmlm2022" 
+        build:
+            context: .
+            dockerfile: Dockerfile
+        # image: tf1_py3_vgg16
+        working_dir: /workspace
+        runtime: nvidia
+        # user: dev
+        environment:
+            - JUPYTER_ENABLE_LAB=yes
+            - NVIDIA_VISIBLE_DEVICES=all
+        volumes:
+            # - "/usr/local/cuda-11.2:/usr/local/cuda"
+            - "../workspace:/workspace"
+            - "/tmp/.X11-unix:/tmp/.X11-unix"
+            - "/media/mine/Minemura:/media"
+        ports: 
+            - "11122:22"
+            - "48888:8888"
+            - "127.0.0.1:6706:6006"
+            - "127.0.0.1:8198:8098"
+        # command: /bin/bash
+        # tty: true

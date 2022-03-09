@@ -1,0 +1,43 @@
+{
+    "name": "kaggle-mmlm2022",
+
+    "dockerComposeFile": "docker-compose.yml",
+    // "dockerFile": "DockerFile",
+    "service": "mmlm2022",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "donjayamanne.python-extension-pack",
+        "davidanson.vscode-markdownlint",
+        "ms-ceintl.vscode-language-pack-ja",
+        "yzhang.markdown-all-in-one",
+        "yzane.markdown-pdf",
+        "ms-python.vscode-pylance",
+        "mutantdino.resourcemonitor",
+        "oderwat.indent-rainbow"
+    ],
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash",
+                "icon": "terminal-bash"
+            },
+            "zsh": {
+                "path": "zsh"
+            },
+            "fish": {
+                "path": "fish"
+            },
+            "tmux": {
+                "path": "tmux",
+                "icon": "terminal-tmux"
+            },
+            "pwsh": {
+                "path": "pwsh",
+                "icon": "terminal-powershell"
+            }
+        },
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "remoteUser": "dev"
+    // "postAttachCommand": ["su", "-", "dev"]
+}
