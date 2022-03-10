@@ -25,3 +25,12 @@ touch 538ratingsMen.csv
 # write https://www.kaggle.com/raddar/ncaa-men-538-team-ratings?select=538ratingsMen.csv 
 # into 538ratingsMen.csv
 ```
+
+## Submission
+
+| score | issues | who | note |
+| :---: | :---: | :---: | :--- |
+| 0.54140 | [#10](https://github.com/masafumi330/kaggle_MMLM2022/issues/10) | Mine | not use strategy |
+| 0.56574 | [#10](https://github.com/masafumi330/kaggle_MMLM2022/issues/10) | Mine | safe strategy |
+| 0.65036 | [#10](https://github.com/masafumi330/kaggle_MMLM2022/issues/10) | Mine | risky strategy |
+
