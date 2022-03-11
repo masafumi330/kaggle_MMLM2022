@@ -1,0 +1,3 @@
+[submodule "mine/workspace/LightGBM"]
+	path = mine/workspace/LightGBM
+	url = github:microsoft/LightGBM

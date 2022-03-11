@@ -9,6 +9,20 @@ kaggle "MMLM 2022" competition repo.
 
 ## Setup
 
+### Installation
+
+```console
+$ git clone --recursive https://github.com/masafumi330/kaggle_MMLM2022.git
+$ sudo apt install cmake build-essential libboost-dev libboost-filesystem-dev
+$ cd {your_name}/LightGBM
+$ mkdir build && cd build
+$ cmake -DUSE_GPU=1 -DOpenCL_LIBRARY=/usr/local/cuda/lib64/libOpenCL.so -DOpenCL_INCLUDE_DIR=/usr/local/cuda/include/ ..
+$ make -j7
+$ cd ../python-package
+$ sudo python setup.py install --precompile --gpu --cuda
+
+```
+
 ### Download Data
 
 ```bash

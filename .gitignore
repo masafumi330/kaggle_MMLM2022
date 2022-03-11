@@ -4,6 +4,9 @@
 submission.csv
 
 # for mine
+*.pickle
+*.pkl
+*.csv
 id_rsa.pub
 entrypoint.sh
 mine/workspace/data/*
