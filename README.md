@@ -44,6 +44,8 @@ touch 538ratingsMen.csv
 
 | score | issues | who | note |
 | :---: | :---: | :---: | :--- |
+| 0.17689 | [#12](https://github.com/masafumi330/kaggle_MMLM2022/issues/12) | Mine | AutoLightGBM with GPU | 
+| 0.53075 | [#11](https://github.com/masafumi330/kaggle_MMLM2022/issues/11) | Mine | LightGBM without tuning |
 | 0.54140 | [#10](https://github.com/masafumi330/kaggle_MMLM2022/issues/10) | Mine | not use strategy |
 | 0.56574 | [#10](https://github.com/masafumi330/kaggle_MMLM2022/issues/10) | Mine | safe strategy |
 | 0.65036 | [#10](https://github.com/masafumi330/kaggle_MMLM2022/issues/10) | Mine | risky strategy |
