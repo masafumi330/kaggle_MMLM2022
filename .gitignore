@@ -10,5 +10,5 @@ submission.csv
 id_rsa.pub
 entrypoint.sh
 mine/workspace/data/*
-mine/workspace/output/auto-lgbm/
+mine/workspace/output/*
 !.devcontainer
